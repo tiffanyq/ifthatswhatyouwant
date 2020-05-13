@@ -4,8 +4,6 @@ let circlesButton, squaresButton, noneButton;
 function setup() {
   cnv = createCanvas(800, 600);
   cnv.parent("container");
-  rect(0, 0, 800 , 600); // canvas border
-  strokeWeight(0); // turn off stroke
   rewriteQuestion();
   
   circlesButton = createButton('circles');
